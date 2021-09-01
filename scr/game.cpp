@@ -312,6 +312,8 @@ void Game::init_game()
     }
     //SDL_ShowCursor(SDL_DISABLE);
 
+    Mix_OpenAudio( 22050, MIX_DEFAULT_FORMAT, 2, 4096);
+
 }
 
 void Game::Run()
